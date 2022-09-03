@@ -1,0 +1,15 @@
+Kravspesifikasjoner
+- Inputkomponent for nummeriske verdier
+- Tilrettelagt for å kunne brukes på nettbrett
+- Et visst antall siffer
+- Hvert siffer skal ha en "+"-knapp over seg og en "-"-knapp under seg. Disse endrer verdien på sifferet med 1.
+- Et valgfritt skilletegn
+- Mulig å velge hvor mange siffer som skal være foran og bak skilletegnet
+- Det skal være mulig å spesifisere en valgfri kort tekst som skal vises foran eller bak sifrene. Man skal kunne velge om teksten skal være foran eller bak.
+- Komponenten trenger ikke støtte ekstra informasjon som negative tall.
+
+Enkel bruk: Vise kommatall
+I løsningen, vis en number stepper som kan vise og endre et tall mellom 0,0 og 10,0, med et siffer etter komma.
+
+Avansert bruk: Klokkeslett, dato og år
+I løsningen, vis en side med tre number stepper'e. Den første skal ha to siffer foran og to siffer bak skilletegnet, som skal være ":". Denne skal vise et klokkeslett i 24-timers-format. Den andre skal også ha to siffer foran og bak skilletegnet, som skal være "/". Dette skal vise en dato på formatet DD/MM. Den tredje komponenten skal ha fire siffer, og ikke noe skilletegn. Denne skal brukes til å vise et årstall. De tre komponentene skal henge sammen slik at hvis f.eks. klokkeslettet går fra 23:30 til 00:30 (ved å trykke på "+"-knappen over det første "3"-tallet), skal også datoen økes med en dag.
